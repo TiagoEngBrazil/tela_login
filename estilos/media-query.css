@@ -8,6 +8,7 @@
 
     section#login {
         width: 80vw;
+        height: 270px;
     }
 
     section#login > div#imagem {
@@ -20,10 +21,6 @@
         float: right;
         width: 70%;
     }
-
-    div#formulario > p {
-        font-size: 0.8em;
-    }
 }
 
 @media screen and (min-width: 992px) {
@@ -32,6 +29,7 @@
     }
     section#login {
         width: 930px;
+        height: 360px;
     }
 
     section#login > div#imagem {
@@ -46,62 +44,12 @@
     }
 
     div#formulario > h1 {
-        font-size: 2.3em;
+        font-size: 2em;
     }
 
     div#formulario > p {
-        font-size: 1.3em;
-    }
-
-    form > div.campo {
-        background-color: #5f2c82;
-        width: 100%;
-        height: 40px;
-        border-radius: 5px;
-        margin: 5px 0px;
-    }
-
-    div.campo > label {
-        display: none;
-    }
-
-    form > input[type=submit] {
-        display: block;
         font-size: 1em;
-        width: 100%;
-        height: 40px;
-        background-color: rgb(29, 172, 216);
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-    form > input[type=submit]:hover {
-        background-color: rgb(103, 197, 103);
-        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.514);
-    }
-
-    form > a.botao {
-        display: block;
-        text-align: center;
-        width: 100%;
-        height: 40px;
-        padding-top: 5px;
-        margin-top: 5px;
-        background-color: white;
-        color: rgb(33, 136, 42);
-        border: 1px solid rgb(114, 177, 114);
-        border-radius: 7px;
-        text-decoration: none;
-    }
-
-    form > a.botao:hover {
-        background-color: rgb(103, 197, 103);
-    }
-
-    form > a.botao > i {
-        font-size: 0.8em;
+        margin: 20px 0px;
     }
 
 }
